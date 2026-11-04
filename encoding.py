@@ -32,13 +32,14 @@ ordinal_maps = {
     'Central Air':    {'N': 0, 'Y': 1},
     'Electrical':     {'Mix': 0, 'FuseP': 1, 'FuseF': 2, 'FuseA': 3, 'SBrkr': 4},
     'Fence':          {'None': 0, 'MnWw': 1, 'GdWo': 2, 'MnPrv': 3, 'GdPrv': 4},
+    'Utilities':    {'ELO': 0, 'NoSeWa': 1, 'NoSewr': 2, 'AllPub': 3},
 }
 
 nominal_cols = [
     'MS SubClass', 'MS Zoning', 'Alley', 'Land Contour', 'Lot Config',
-    'Neighborhood', 'Condition 1', 'Bldg Type', 'House Style', 'Roof Style',
+    'Neighborhood', 'Condition 1', 'Condition 2', 'Bldg Type', 'House Style', 'Roof Style',
     'Exterior 1st', 'Exterior 2nd', 'Mas Vnr Type', 'Foundation',
-    'Garage Type', 'Misc Feature', 'Sale Type', 'Sale Condition',
+    'Garage Type', 'Misc Feature', 'Sale Type', 'Sale Condition', 'Roof Matl', 'Heating', 'Street'
 ]
 
 # for the target range
